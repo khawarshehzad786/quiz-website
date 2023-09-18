@@ -61,6 +61,7 @@ label {
 input[type="radio"] {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 input[type="radio"]:checked {
   background-color: #8ec5fc;
@@ -81,6 +82,7 @@ button {
   border: none;
   color: #fff;
   font-size: 1.6rem;
+cursor: pointer;
 }
 .result {
   width: 100%;
@@ -98,9 +100,10 @@ button {
   gap: 2.4rem;
   align-items: center;
 }
-.result h2 {
+.result h2, .socor{
   font-size: 3.4rem;
 }
+
 .result p {
   font-size: 2rem;
 }
